@@ -19,6 +19,7 @@ public class UserServiceConsumer {
     public static void main(String args[]) {
         ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
         IUserService userService = (IUserService) ctx.getBean("userService");
+        System.out.println("we are now at feature1");
         logger.info("执行结果：" + userService.login("hello", "hello"));
     }
 }
