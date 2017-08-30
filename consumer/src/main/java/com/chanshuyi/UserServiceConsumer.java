@@ -13,6 +13,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class UserServiceConsumer {
 
+
     private static Logger logger = LoggerFactory.getLogger(UserServiceConsumer.class);
 
     public static void main(String args[]) {
